@@ -1,0 +1,180 @@
+/* Styling for the image gallery */
+.image-gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 30px;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    
+  }
+  .Text-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 300px;
+  }
+  .Text-section img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .Text-section .title{
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .Text-section .product{
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(29, 29, 29, 0.6);
+  }
+  
+  .image-gallery::-webkit-scrollbar {
+    width: 8px; /* Adjust this as needed */
+  }
+  
+  .image-gallery::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  .image-gallery::-webkit-scrollbar-track {
+    background-color: transparent;
+    border: none;
+  }
+  
+  
+  .image-item {
+    cursor: pointer;
+    min-width: 400px;
+    height: 500px;
+    object-fit: contain;
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s;
+    border-radius: 6px;
+  }
+  
+  /* .image-item img:hover {
+    transform: scale(1.01);
+  } */
+  
+  /* Styling for the image popup */
+ 
+  /* Styling for the image popup */
+.image-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transform-origin: center;
+    animation: openModal 0.3s ease-in;
+    transform-origin: center;
+    transform: scale(1); /* Set the initial scale to 1 when the modal is open */
+    opacity: 1; /* Set the initial opacity to 1 when the modal is open */
+  }
+  
+  /* @keyframes openModal {
+    from {
+      transform: scale(0); /* Start with a scale of 0 */
+      /* opacity: 0; Start with opacity 0 */
+    /* } */
+    /* to {
+      transform: scale(1); /* End with a scale of 1 */
+      /* opacity: 1; End with opacity 1 */ 
+    /* } */
+  /* } */
+  
+  /* @keyframes closeModal {
+  from {
+    transform: scale(1); /* Start with a scale of 1 */
+    /* opacity: 1; Start with opacity 1 */
+  /* } */
+  /* to { */
+    /* transform: scale(0); End with a scale of 0 */
+    /* opacity: 0; End with opacity 0 */
+  /* } */
+/* }  */
+  
+  .image-popup-content {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .image-popup img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    transition: all 0.4s ease-in
+  }
+
+  
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 8px;
+    border-radius: 50%;
+  }
+  
+  .close-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .image-caption {
+    color: white;
+    font-size: 18px;
+    width: 100vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: white;
+  }
+  .image-caption .content{
+    width: 750px;
+    height: auto;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+  .image-caption .content .title{
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 0px;
+  }
+  .image-caption .content .description{
+    font-size: 19px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+  }

@@ -1,0 +1,153 @@
+.container {
+  padding-top: 20px;
+}
+
+.topContainer {
+  padding-left: 121px;
+  padding-right: 121px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topContainer h3 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.businessInfoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.businessInfo {
+  width: 80%;
+  margin-left: -3px;
+  margin-top: 20px;
+  background-color: #f3f6f8;
+  border: 1px solid #c0c0c0;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.infoContainer h4 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.infoContainer img {
+  width: 50px;
+}
+
+.infoContainer p {
+  color: #919397;
+}
+
+.contentRightTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.verificationContainer {
+  display: flex;
+  margin-top: 30px;
+}
+
+.verificationContainer > div {
+  margin-right: 103px;
+}
+
+.bottomContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.bottomLeftContainer {
+  margin-left: 30px;
+  margin-top: -17px;
+}
+
+.optionItem {
+  width: 100px;
+  text-align: center;
+}
+
+.optionItem h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.optionItem > p {
+  font-size: 12px;
+  color: #c0c0c0;
+  padding-top: 10px;
+}
+
+.optionItem div > p {
+  font-size: 12px;
+  color: #c0c0c0;
+  padding-top: 10px;
+}
+
+.optionItem div img {
+  margin-top: 5px;
+}
+
+.languageContent > p {
+  font-size: 12px;
+  color: #c0c0c0;
+}
+
+.optionItem > h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.company {
+  margin-top: 22px;
+}
+
+.companyContainer {
+  display: flex;
+}
+
+.reviewContainer {
+  margin-left: 15px;
+}
+
+.reviewContainer h4 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.reviewContainer p {
+  font-size: 12px;
+  color: #c0c0c0;
+}
+
+.editOption {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.editOption h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.editOption img {
+  width: 15px;
+  margin-left: 5px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.intro > img {
+  margin-top: 5px;
+}

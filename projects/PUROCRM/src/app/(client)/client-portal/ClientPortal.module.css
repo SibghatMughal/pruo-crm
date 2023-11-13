@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+}
+.right__container {
+  padding-left: 270px;
+  width: 100%;
+}
+
+.closedRight__container {
+  padding-left: 85px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1500px) {
+  .right__container {
+    padding-left: 232px;
+  }
+
+  .closedRight__container {
+    padding-left: 105px;
+  }
+}

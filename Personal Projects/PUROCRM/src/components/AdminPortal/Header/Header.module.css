@@ -1,0 +1,505 @@
+.container {
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
+  padding: 6px 20px;
+  margin: 10px 20px;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerLeft {
+  font-size: 14px;
+  color: #304880;
+}
+
+.headerLeft > h1 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.inputContainer {
+  border-radius: 20px;
+  background-color: #f5f5f5cd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  width: 400px;
+}
+
+.input {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+}
+
+.inputIconContainer {
+  display: inline-flex;
+  align-items: center;
+}
+
+.inputFilterIcon {
+  width: 15px;
+  object-fit: contain;
+  cursor: pointer;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.inputArrowIcon {
+  width: 9px;
+  object-fit: contain;
+  cursor: pointer;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.input > img {
+  width: 15px;
+}
+
+.input > input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-top: 3px;
+  width: 100%;
+}
+
+.inputContainer input::placeholder {
+  color: #dedede;
+}
+
+.headerRight__rightContainer {
+  display: flex;
+}
+
+.headerRight__center {
+  display: flex;
+  align-items: center;
+  /* margin-right: 40px; */
+}
+
+.headerRight__button {
+  border-radius: 8px;
+  /* margin: 0 8px; */
+  position: relative;
+}
+
+.headerRight__button > span {
+  color: rgb(196, 17, 47);
+  position: absolute;
+  bottom: 22px;
+  font-size: 14px;
+  font-weight: 600;
+  right: 10px;
+}
+
+.bell {
+  padding: 12px 15px;
+}
+
+.bell > span {
+  top: 2px;
+  right: 18px;
+}
+
+.bell > img {
+  width: 23px;
+  cursor: pointer;
+}
+
+.heart {
+  padding: 12px 15px;
+}
+
+.heartIcon {
+  fill: #c0c0c0 !important;
+  cursor: pointer;
+}
+
+.heart > img {
+  width: 21px;
+  cursor: pointer;
+}
+
+.email {
+  padding: 6px 10px;
+}
+
+.email > img {
+  width: 24px;
+  cursor: pointer;
+}
+
+.message {
+  padding: 10px 12px;
+}
+
+.message > span {
+  top: 1px;
+  right: 12px;
+}
+
+.message > img {
+  width: 21px;
+  cursor: pointer;
+}
+
+.mode {
+  padding: 9px 10px;
+  display: inline-flex;
+  align-items: center;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+
+.mode > img {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.mode > p {
+  color: #304880;
+  font-size: 14px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+}
+
+.region {
+  width: 29px;
+  padding-right: 10px;
+}
+
+.regionContainer {
+  display: inline-flex;
+  align-items: center;
+  padding: 13px 10px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+
+.regionContainer p {
+  color: #304880;
+  font-size: 14px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+
+.profileMenu {
+  padding: 8px 10px;
+  margin-right: 10px;
+}
+
+.profileMenu > img {
+  width: 25px;
+  cursor: pointer;
+}
+
+.headerRight__down {
+  width: 9px !important;
+}
+
+.headerRight__right {
+  display: flex;
+  align-items: center;
+}
+
+.profileImgContainer {
+  padding-top: 5px;
+  position: relative;
+}
+
+.onlineCircle {
+  width: 8px;
+  height: 8px;
+  background-color: #1ca797;
+  border-radius: 50%;
+  margin-left: 15px;
+  position: absolute;
+  bottom: 12px;
+  right: -1px;
+}
+
+.onlineText {
+  color: #1ca797;
+}
+
+.meetingCircle {
+  width: 8px;
+  height: 8px;
+  background-color: #f01212;
+  border-radius: 50%;
+  margin-left: 15px;
+  position: absolute;
+  bottom: 12px;
+  right: -1px;
+}
+
+.meetingText {
+  color: #f01212;
+}
+
+.awayCircle {
+  width: 8px;
+  height: 8px;
+  background-color: #f0a212;
+  border-radius: 50%;
+  margin-left: 15px;
+  position: absolute;
+  bottom: 12px;
+  right: -1px;
+}
+
+.awayText {
+  color: #f0a212;
+}
+
+.busyCircle {
+  width: 8px;
+  height: 8px;
+  background-color: #f01212;
+  border-radius: 50%;
+  margin-left: 15px;
+  position: absolute;
+  bottom: 12px;
+  right: -1px;
+}
+
+.busyText {
+  color: #f01212;
+}
+
+.offlineCircle {
+  width: 9px;
+  height: 9px;
+  background-color: #ffffff;
+  border: 1px solid #c0c0c0;
+  border-radius: 50%;
+  margin-left: 15px;
+  position: absolute;
+  bottom: 12px;
+  right: -1px;
+}
+
+.offlineText {
+  color: #304880;
+}
+
+.profileImgContainer {
+  position: relative;
+  margin-right: 5px;
+}
+
+.profileImgContainer > img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profileInfo {
+  padding-left: 5px;
+  width: 270px;
+  position: relative;
+}
+
+.profileInfo h3 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #555252;
+}
+
+.profileEmail {
+  font-weight: 400;
+  font-size: 14px;
+  color: #555252;
+}
+
+.profileInfoTop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profileInfoDivider {
+  border-left: 1px solid #c0c0c0;
+  height: 40px;
+  width: 10px;
+  position: absolute;
+  right: 118px;
+  top: 2px;
+}
+
+.profileInfoBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.statusContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.statusContainer p {
+  font-size: 12px;
+  padding-left: 3px;
+  padding-right: 5px;
+  font-weight: 500;
+}
+
+.statusContainer img {
+  margin-top: 3px;
+}
+
+.profileType {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.profileType p {
+  padding-right: 5px;
+  padding-bottom: 3px;
+  color: #304880;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1500px) {
+  .headerLeft > h1 {
+    margin-right: 10px;
+    font-size: 15px;
+  }
+  .container {
+    padding: 5px 20px;
+    margin-left: 5px;
+  }
+  .inputContainer {
+    min-width: 100%;
+    max-width: 300px;
+    padding: 10px 16px;
+  }
+
+  .input > img {
+    width: 12px;
+  }
+
+  .inputContainer input {
+    font-size: 12px;
+  }
+
+  .inputFilterIcon {
+    width: 12px;
+    margin-right: 4px;
+  }
+
+  .inputArrowIcon {
+    width: 7px;
+  }
+
+  .headerRight__button {
+    margin: 0;
+  }
+
+  .notificationText {
+    font-size: 11px;
+  }
+
+  .bell img {
+    width: 20px;
+  }
+
+  .bell span {
+    top: 5px;
+  }
+
+  .email img {
+    width: 19px;
+  }
+
+  .email span {
+    bottom: 20px;
+  }
+
+  .message {
+    padding-right: 8px;
+  }
+
+  .message > img {
+    width: 19px;
+  }
+
+  .message > span {
+    right: 8px;
+    top: 3px;
+  }
+
+  .heart > img {
+    width: 18px;
+  }
+
+  .mode {
+    margin-top: 2px;
+  }
+
+  .mode > img {
+    width: 15px;
+  }
+
+  .mode > p {
+    font-size: 12px;
+  }
+
+  .profileMenu {
+    margin-right: 10px;
+  }
+
+  .profileMenu > img {
+    width: 18px;
+  }
+
+  .profileImgContainer > img {
+    width: 40px;
+    height: 40px;
+  }
+  .profileInfo h3 {
+    font-size: 13px;
+    padding-left: 2px;
+    padding-top: 2px;
+  }
+  .profileInfoBottom {
+    margin-top: 3px;
+  }
+
+  .profileInfoDivider {
+    height: 36px;
+  }
+
+  .profileType p {
+    font-size: 12px;
+  }
+  .profileEmail p {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,41 @@
+.notificationItemUnopened {
+  background-color: #808080 !important;
+}
+
+.notificationItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+  /* padding-bottom: 12px; */
+}
+
+.notificationItem img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.notificationItem > div {
+  display: flex;
+  align-items: center;
+}
+
+.notificationItem > div > p {
+  padding-left: 10px;
+  color: #808080;
+  font-size: 13px;
+  width: 80%;
+  line-height: 24px;
+}
+
+.notificationItem span {
+  border-bottom: 1px solid #808080;
+  cursor: pointer;
+}
+
+.notificationItem p {
+  color: #c0c0c0;
+  font-size: 14px;
+}

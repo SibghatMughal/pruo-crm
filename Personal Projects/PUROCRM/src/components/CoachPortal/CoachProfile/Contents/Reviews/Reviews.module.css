@@ -1,0 +1,146 @@
+.container {
+  padding-top: 20px;
+}
+
+.container > h3 {
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 62px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  /* width: 100%; */
+  flex-direction: column;
+}
+
+.ratingContainer {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  /* for preview */
+  /* padding-right: 90px; */
+}
+
+.ratingContainerLeft {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.ratingContainerLeft p {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.ratingContainerRight {
+  width: 100%;
+  margin-right: 20px;
+}
+
+.reviewSlider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.reviewSlider > p {
+  margin-right: 10px;
+  font-weight: 400;
+  color: #7d7d7d;
+  font-size: 12px;
+}
+
+/* progress */
+.reviewSlider > span {
+  width: 100%;
+  margin-right: 15px;
+}
+
+.reviewSlider > h5 {
+  font-weight: 400;
+  color: #7d7d7d;
+  font-size: 12px;
+}
+
+.splitter {
+  background-color: #d8d6d6;
+  height: 1px;
+  width: 90%;
+  /* for preview */
+  /* width: 91%; */
+  margin-top: 10px;
+}
+
+.reviewsContainer {
+  margin-top: 20px;
+  /* for preview */
+  /* padding-right: 93px; */
+  width: 90%;
+}
+
+.reviewsContainer > h3 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.reviews {
+  margin-top: 20px;
+  width: 99%;
+}
+
+.review {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.reviewRight {
+  margin-left: 20px;
+}
+
+.reviewRight > h3 {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.reviewRight > div {
+  display: flex;
+  margin-top: 3px;
+}
+
+.reviewRight > div > span {
+  font-size: 14px;
+  cursor: pointer;
+  padding-top: 2px;
+}
+
+.reviewRight > div p {
+  color: #7d7d7d;
+  font-size: 12px;
+  padding-left: 8px;
+  margin-top: 2px;
+}
+
+.reviewRight > p {
+  color: #7d7d7d;
+  font-size: 14px;
+  padding-top: 8px;
+  line-height: 20px;
+}
+
+.buttonContainer {
+  text-align: center;
+}
+
+.buttonContainer button {
+  color: #304880;
+  border: 1px solid #304880;
+  outline: none;
+  padding: 10px 15px;
+  background: transparent;
+  border-radius: 8px;
+  font-size: 12px;
+  cursor: pointer;
+}

@@ -1,0 +1,48 @@
+/* .loader {
+  border-bottom-color: transparent !important;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 800ms linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
+.loader {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 5px 40px;
+  background-position: 0px center, 10px center, 20px center, 30px center,
+    40px center, 50px center;
+  animation: spikeUp 1s linear infinite alternate;
+}
+@keyframes spikeUp {
+  0% {
+    background-size: 5px 40px;
+  }
+  16% {
+    background-size: 5px 55px, 5px 40px, 5px 40px, 5px 40px, 5px 40px, 5px 40px;
+  }
+  33% {
+    background-size: 5px 40px, 5px 55px, 5px 40px, 5px 40px, 5px 40px, 5px 40px;
+  }
+  50% {
+    background-size: 5px 40px, 5px 40px, 5px 55px, 5px 40px, 5px 40px, 5px 40px;
+  }
+  66% {
+    background-size: 5px 40px, 5px 40px, 5px 40px, 5px 55px, 5px 40px, 5px 40px;
+  }
+  83% {
+    background-size: 5px 40px, 5px 40px, 5px 40px, 5px 40px, 5px 55px, 5px 40px;
+  }
+  100% {
+    background-size: 5px 40px, 5px 40px, 5px 40px, 5px 40px, 5px 40px, 5px 55px;
+  }
+}

@@ -1,0 +1,244 @@
+.favoritesBar > div {
+  border-top-right-radius: 10px !important;
+  border-top-left-radius: 10px !important;
+}
+
+.container {
+  width: 500px !important;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.container h2 {
+  padding-left: 15px;
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: large;
+  background-color: #304880;
+  color: #ffffff;
+  padding-bottom: 15px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.favoritesItem h3 {
+  font-size: 15px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.coachesTableContainer {
+  padding: 10px;
+}
+
+.coachesTable {
+  text-align: left;
+  margin-bottom: 30px;
+  width: 100%;
+  border: 1px solid #c0c0c0;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.coachesTable thead tr {
+  background-color: #304880a4;
+  color: white;
+}
+
+.coachesTable th {
+  background-color: #304880a4;
+}
+
+.coachesTable th,
+.coachesTable td {
+  padding: 10px;
+  font-size: 13px;
+}
+
+.coachesTable tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.coachesTable tbody tr td {
+  padding: 10px;
+
+  cursor: pointer;
+  font-size: 13px;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.coachName span {
+  font-weight: 700;
+}
+
+.coachTitle {
+  font-size: 12px;
+}
+
+.rating > span {
+  font-size: 12px !important;
+}
+
+.rating > div {
+  display: flex;
+}
+
+.rating > div > p {
+  font-size: 12px;
+}
+
+.rating > div > span {
+  font-size: 10px;
+  padding-left: 2px;
+}
+
+.coachesTable tbody tr td button {
+  border-radius: 8px;
+  background: white;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(51, 51, 153, 0.814);
+  margin: 28px 0;
+  border: 1px solid rgba(51, 51, 153, 0.814);
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+.coachesTable tbody tr td img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.contactsTableContainer {
+  padding: 10px;
+}
+
+.contactsTable {
+  text-align: left;
+  margin-bottom: 30px;
+  width: 100%;
+  border: 1px solid #c0c0c0;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.contactsTable thead tr {
+  background-color: #304880a4;
+  color: white;
+}
+
+.contactsTable th {
+  background-color: #304880a4;
+}
+
+.contactsTable th,
+.contactsTable td {
+  padding: 10px;
+  font-size: 13px;
+}
+
+.contactsTable tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.contactsTable tbody tr td {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 13px;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.contactsTable tbody td {
+  /* border: 1px solid #c0c0c0; */
+}
+
+.contactsTable tbody tr td {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.contactsTable tbody tr td img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.details {
+  font-size: 12px !important;
+  border-bottom: 1px solid #3e97ff;
+  width: 69px;
+  color: #3e97ff !important;
+  text-align: center;
+}
+
+.emailItemContainer {
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.emailTopContainer {
+  background-color: #304880a4;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.emailTopContainer h4 {
+  color: white;
+  font-size: 13px;
+}
+
+.emailFrom {
+  padding-left: 55px !important;
+}
+
+.emailDate {
+  padding-right: 15px !important;
+}
+
+.emailItems {
+  padding: 0 10px;
+}
+
+.linkItemContainer {
+  background-color: rgb(245, 248, 250);
+  margin: 10px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.linkItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #e2dfdf;
+  margin: 0 20px;
+}
+
+.lastItem {
+  border-bottom: none !important;
+}
+
+.linkItem p {
+  color: #3e97ff;
+  font-size: 14px;
+}
+
+.linkItem img {
+  width: 15px;
+  cursor: pointer;
+}
+
+.divider {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+}

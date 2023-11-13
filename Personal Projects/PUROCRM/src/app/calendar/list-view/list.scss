@@ -1,0 +1,37 @@
+.main{
+    .list-view-main{
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 10px;
+        .tabs-main{
+            display: flex;
+            justify-content: space-between;
+    
+            .new-task-btn{
+                background-color: #333399;
+                border-radius: 10px;
+                box-shadow: none !important;
+                padding: 15px;
+            }
+        }
+    
+        .filter-main{
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+        }
+
+        table{
+            border-collapse :separate;
+            border-spacing: 0 20px;
+            border: none;
+          
+        }
+
+        .list-pagination{
+            margin: 20px 10px;
+        }
+    }
+}

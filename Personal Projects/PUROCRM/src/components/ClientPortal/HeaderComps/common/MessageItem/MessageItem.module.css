@@ -1,0 +1,135 @@
+.messageItem {
+  position: relative;
+}
+
+.notificationItemUnopened {
+  border-bottom: none !important;
+}
+
+/* .divider {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+} */
+
+.notificationItem {
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.notificationItem:hover {
+  background-color: rgb(223, 227, 235);
+
+  /* background-color: red; */
+}
+
+.notificationItemContainer {
+  display: flex;
+  align-items: center;
+  /* border-right: 5px solid #339; */
+  padding-right: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.notificationItemContainer__unopened {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  background-color: #f3f6f8;
+}
+
+.notificationItem:hover .notificationItemContainer__unopened {
+  background-color: transparent;
+}
+
+.notificationLeft {
+  position: relative;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.notificationLeft img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.notificationLeft p {
+  position: absolute;
+  top: 1px;
+  right: -7px;
+  background-color: #304880;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 3px 5px;
+  font-size: 10px;
+  border: 1px solid white;
+}
+
+.notificationItem:hover .notificationRightContainer {
+  background-color: transparent;
+}
+
+.notificationItemUnopened .notificationRightContainer {
+  background-color: transparent;
+}
+
+.notificationRightContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 15px;
+  border-bottom-left-radius: 0;
+  height: 90px;
+  padding: 15px 0;
+  padding-right: 10px;
+  background-color: white;
+}
+
+.notificationCenter {
+  padding-left: 16px;
+  width: 85%;
+}
+
+.notificationCenter h4 {
+  font-weight: 500;
+  font-size: 14px;
+  padding-bottom: 5px;
+  color: #000000ca;
+}
+
+.notificationCenter > p {
+  color: #0000009d;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.notificationRight > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.notificationRight p {
+  color: #00000075;
+  font-size: 12px;
+}
+
+.notificationRight img {
+  width: 30px;
+  margin-right: -10px;
+  position: absolute;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+.notificationUnReadLine {
+  width: 7px;
+  height: 80px;
+  background-color: #339;
+}

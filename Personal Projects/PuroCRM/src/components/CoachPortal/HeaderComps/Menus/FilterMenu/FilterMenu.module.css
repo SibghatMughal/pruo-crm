@@ -1,0 +1,280 @@
+.showMenu {
+  display: block;
+}
+
+.container {
+  position: relative;
+}
+
+.hideMenu {
+  display: none;
+}
+
+.menu {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: -20px;
+  top: 30px;
+  width: 400px;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  z-index: 10;
+}
+
+.recentSearchesTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.recentSearchesTitle h3 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.recentSearchesContainer {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 12 px;
+}
+
+.recentSearchesContainer > div {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.recentSearchesContainer > div > img {
+  width: 12px;
+  object-fit: contain;
+  margin-top: 3px;
+}
+
+.recentSearchesContainer > div p {
+  font-size: 14px;
+  padding-left: 5px;
+  color: #808080;
+}
+
+.filtersContainer {
+  margin: 0 20px;
+  padding: 20px 0;
+  border-top: 1px solid #e2dfdf;
+}
+
+.filtersContainer > div h3 {
+  font-size: 15px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.optionsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.optionItem {
+  margin-bottom: 15px;
+}
+
+.optionItem > p {
+  font-size: 13px;
+}
+
+.enabled > h3 {
+  padding-top: 10px;
+}
+
+.switchContainer {
+  margin-left: -12px;
+  margin-top: -9px;
+}
+
+.buttonContainer {
+  text-align: right;
+}
+
+.resetBtn {
+  border: 1px solid #304880;
+  background: none;
+  outline: none;
+  /* width: 70px; */
+  color: #304880;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.applyBtn {
+  background-color: #304880;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 9px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+
+  font-weight: 400;
+}
+
+.filterPicker {
+  border-radius: 8px;
+  border: 1px solid #d8dae5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin-top: 5px;
+  height: 28px;
+  width: 150px;
+  background-color: #f3f6f8;
+  outline: none;
+  padding-right: 10px;
+  padding-top: 18px;
+}
+
+.popular {
+  margin: 0 20px;
+  padding-top: 20px;
+  border-top: 1px solid #e2dfdf;
+}
+
+.popularTitle h3 {
+  font-size: 15px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.popularContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.popularItem {
+  border-radius: 20px;
+  background: #f3f6f8;
+  margin-right: 12px;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.popularItem p {
+  color: rgba(31, 32, 33, 0.6);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.popularItem:hover {
+  background: #304880;
+}
+
+.popularItem:hover p {
+  color: #e9e9e9;
+}
+
+.filterOptions1 {
+  position: absolute;
+  background-color: #f3f6f8;
+  text-align: left;
+  top: 260px;
+  left: -345px;
+  overflow: scroll;
+  padding: 20px;
+  border-radius: 12px;
+  width: 150px;
+}
+
+.filterOption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.filterOption p {
+  font-size: 12px;
+  color: #242424;
+}
+
+.filterOption input {
+  accent-color: #304880;
+}
+
+.upArrow {
+  width: 15px;
+}
+
+.downArrow {
+  width: 10px;
+}
+
+.filterOptions2 {
+  position: absolute;
+  background-color: #f3f6f8;
+  text-align: left;
+  top: 260px;
+  left: -135px;
+  overflow: scroll;
+  padding: 20px;
+  border-radius: 12px;
+  width: 150px;
+}
+
+.filterOptions3 {
+  position: absolute;
+  background-color: #f3f6f8;
+  text-align: left;
+  top: 330px;
+  left: -345px;
+  overflow: scroll;
+  padding: 20px;
+  border-radius: 12px;
+  width: 150px;
+}
+
+.filterOptions4 {
+  position: absolute;
+  background-color: #f3f6f8;
+  text-align: left;
+  top: 330px;
+  left: -135px;
+  overflow: scroll;
+  padding: 20px;
+  border-radius: 12px;
+  width: 150px;
+}
+
+.openArrow {
+  position: absolute;
+  top: 26px;
+  right: -5px;
+  z-index: 10;
+  padding: 2px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.openArrow img {
+  width: 15px;
+  margin-bottom: 4px;
+}
+
+@media screen and (max-width: 1500px) {
+  .menu {
+    width: fit-content;
+  }
+  .filterPicker {
+    margin-right: 10px;
+  }
+}

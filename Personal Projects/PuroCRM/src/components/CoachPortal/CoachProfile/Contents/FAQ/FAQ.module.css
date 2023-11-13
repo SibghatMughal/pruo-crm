@@ -1,0 +1,49 @@
+.container {
+  padding-top: 20px;
+}
+
+.container > h3 {
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 62px;
+}
+
+.container > div {
+  display: flex;
+  align-items: center;
+  /* width: 100%; */
+  flex-direction: column;
+}
+
+.faqTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 35px;
+}
+
+.faq {
+  width: 90%;
+}
+
+.faq h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.faq p {
+  font-size: 14px;
+  color: #919397;
+  line-height: 20px;
+  padding-top: 8px;
+}
+
+.faq img {
+  cursor: pointer;
+}
+
+.editBtn {
+  width: 14px;
+  margin-left: 15px;
+}

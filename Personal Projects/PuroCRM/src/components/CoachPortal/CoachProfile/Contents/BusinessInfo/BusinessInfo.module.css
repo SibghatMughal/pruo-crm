@@ -1,0 +1,68 @@
+.container {
+  padding-top: 20px;
+}
+
+.topContainer {
+  padding-left: 121px;
+  padding-right: 121px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topContainer h3 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.topContainer button {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 10px;
+  background: white;
+  /* box-shadow: 0px 8px 16px 0px rgba(143, 149, 178, 0.15); */
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(51, 51, 153, 0.814);
+  padding: 12px 20px;
+  cursor: pointer;
+  border: none;
+  background: #e1e1fd;
+}
+
+.topContainer button > img {
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.businessInfoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.businessInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  width: 80%;
+  margin-left: -3px;
+  margin-top: 40px;
+  background-color: #f3f3f8;
+  border: 1px solid #c0c0c0;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.infoContainer h4 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.infoContainer img {
+  width: 50px;
+}
+
+.infoContainer p {
+  color: #919397;
+}

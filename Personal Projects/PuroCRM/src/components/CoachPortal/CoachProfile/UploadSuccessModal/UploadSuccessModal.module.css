@@ -1,0 +1,120 @@
+.modal {
+  inset: 50% auto auto 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border: none;
+  border-radius: 25px;
+  background: #fbfbfd;
+  box-shadow: 0px 6px 16px 0px rgba(153, 155, 168, 0.1);
+  overflow: auto;
+  border-radius: 25px;
+  outline: none;
+  padding: 30px;
+  width: 700px;
+  height: fit-content;
+  max-height: 1200px;
+  overflow-y: scroll;
+}
+
+.container {
+  padding: 20px;
+  position: relative;
+}
+
+.topContainer {
+  text-align: center;
+}
+
+.topContainer h3 {
+  padding-top: 20px;
+  color: #304880;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.topContainer p {
+  padding-top: 20px;
+  font-size: 16px;
+  color: #c0c0c0;
+}
+
+.closeImg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.bottomContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.finishBtn {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 10px;
+  background: white;
+  /* box-shadow: 0px 8px 16px 0px rgba(143, 149, 178, 0.15); */
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(51, 51, 153, 0.814);
+  border: 1px solid rgba(51, 51, 153, 0.814);
+  padding: 16px 20px;
+  cursor: pointer;
+}
+
+.finishBtn > img {
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.buttonContainer {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.leftBtn {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 10px;
+  background: white;
+  /* box-shadow: 0px 8px 16px 0px rgba(143, 149, 178, 0.15); */
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(51, 51, 153, 0.814);
+  padding: 16px 20px;
+  cursor: pointer;
+  border: none;
+  background: #e1e1fd;
+}
+
+.leftBtn > img {
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.rightBtn {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 10px;
+  background: white;
+  /* box-shadow: 0px 8px 16px 0px rgba(143, 149, 178, 0.15); */
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(51, 51, 153, 0.814);
+  border: 1px solid rgba(51, 51, 153, 0.814);
+  padding: 16px 20px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.rightBtn > img {
+  margin-left: 10px;
+  margin-top: 3px;
+}

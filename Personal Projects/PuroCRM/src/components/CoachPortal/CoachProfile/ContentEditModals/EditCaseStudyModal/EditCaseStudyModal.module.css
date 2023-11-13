@@ -1,0 +1,239 @@
+.modal {
+  inset: 50% auto auto 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border: none;
+  border-radius: 25px;
+  background: #fbfbfd;
+  box-shadow: 0px 6px 16px 0px rgba(153, 155, 168, 0.1);
+  overflow: auto;
+  border-radius: 25px;
+  outline: none;
+  padding: 30px;
+  width: 700px;
+  height: fit-content;
+  max-height: 1200px;
+  overflow-y: scroll;
+}
+
+.container {
+  padding: 20px;
+  position: relative;
+}
+
+.container > p {
+  color: rgba(31, 32, 33, 0.6);
+  font-size: 18px;
+  padding: 20px 0;
+  font-weight: 300;
+}
+
+.inputContainer {
+  width: 100%;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.inputContainer label {
+  font-size: 14px;
+  color: #304880;
+}
+
+.inputContainer > input {
+  border-radius: 10px;
+  border: 1px solid #d8dae5;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin-top: 9px;
+  height: 50px;
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  font-size: 14px;
+}
+
+.certificateUploadContainer {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.certificateUploadContainer > p {
+  font-size: 14px;
+  color: #304880;
+}
+
+.certificateUploadContainer > div {
+  border-radius: 10px;
+  border: 2px dashed #304880af;
+  padding: 15px;
+  margin-top: 10px;
+  height: 140px;
+  width: 100%;
+}
+
+.uploadContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.upload {
+  width: 100%;
+}
+
+.uploadContainer p {
+  font-size: 12px;
+  padding: 15px 0;
+  color: #304880;
+}
+
+.uploadContainer h5 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.uploadedContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.uploadedContainer p {
+  font-size: 12px;
+  padding: 12px 0;
+  color: #304880;
+}
+
+.uploadedFileInfo {
+  display: flex;
+  align-items: center;
+}
+
+.uploadedFileInfo h3 {
+  font-size: 12px;
+  font-weight: 400;
+  margin-right: 40px;
+  color: #3b3b3b;
+}
+
+.uploadedActionContainer {
+  margin-top: 4px;
+}
+
+.uploadedActionContainer > img {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.caseDescriptionContainer {
+  margin-top: 25px;
+}
+
+.caseDescriptionContainer p {
+  font-size: 14px;
+  color: #304880;
+}
+
+.descriptionContainer {
+  width: 100%;
+  margin-top: 10px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.quillContainer > div:first-child {
+  height: 200px;
+}
+
+.quillContainer > div:first-child > div:first-child {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.inputBottomContainer {
+  text-align: right;
+  margin-top: 13px;
+  margin-right: 12px;
+  color: #808080;
+}
+
+.closeImg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.bottomContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.finishBtn {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 10px;
+  background: white;
+  /* box-shadow: 0px 8px 16px 0px rgba(143, 149, 178, 0.15); */
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(51, 51, 153, 0.814);
+  border: 1px solid rgba(51, 51, 153, 0.814);
+  padding: 16px 20px;
+  cursor: pointer;
+}
+
+.buttonContainer {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.leftBtn {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 10px;
+  background: white;
+  /* box-shadow: 0px 8px 16px 0px rgba(143, 149, 178, 0.15); */
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(51, 51, 153, 0.814);
+  padding: 16px 20px;
+  cursor: pointer;
+  border: none;
+  background: #e1e1fd;
+}
+
+.leftBtn > img {
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.rightBtn {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 10px;
+  background: white;
+  /* box-shadow: 0px 8px 16px 0px rgba(143, 149, 178, 0.15); */
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(51, 51, 153, 0.814);
+  border: 1px solid rgba(51, 51, 153, 0.814);
+  padding: 16px 20px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.rightBtn > img {
+  margin-left: 10px;
+  margin-top: 3px;
+}

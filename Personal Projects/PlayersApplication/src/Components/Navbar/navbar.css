@@ -1,0 +1,91 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    color: rgb(255, 255, 255);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    width: 100%;
+    background-color: rgb(33, 55, 68);
+    z-index: 99;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-shadow: rgb(15, 33, 46) 0px 4px 6px -1px;
+    overflow: hidden;
+}
+.css-1futezt-MuiTypography-root{
+    margin-left: -20px;
+}
+.priceSection{
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-right: 12px;
+    background-color: rgb(15, 33, 46);
+    overflow: hidden;
+    text-align: center;
+}
+.priceSection img{
+    margin: 5px;
+}
+.points{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.priceSection .lable{
+    width: 50%;
+    height: 100%;
+    background-color: #147fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconColor{
+color: rgb(177, 186, 210); 
+cursor: pointer;
+background-color:transparent;
+border-radius: 50%;
+padding: 12px;
+gap: 12px;
+}
+.iconColor:hover{
+    background-color: rgba(177, 186, 210,0.2);
+}
+
+
+/* bottom section of navbar  */
+
+.bottom-section{
+    box-sizing: border-box;
+    margin: 0px;
+    height: 60px;
+    flex-direction: row;
+    min-width: 100%;
+    background-color: rgb(33, 55, 68);
+    padding: 16px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 10;
+}
+
+.bottom-section .nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
